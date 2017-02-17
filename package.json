@@ -1,0 +1,29 @@
+{
+  "name": "basic-auth-middleware",
+  "description": "Basic auth middleware",
+  "repository": "yoshuawuyts/basic-auth-middleware",
+  "version": "1.0.0",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "node .",
+    "test": "standard && npm run deps"
+  },
+  "dependencies": {
+    "basic-auth": "^1.1.0",
+    "boom": "^4.2.0"
+  },
+  "devDependencies": {
+    "dependency-check": "^2.8.0",
+    "nyc": "^10.1.2",
+    "standard": "^8.6.0",
+    "tape": "^4.6.3"
+  },
+  "keywords": [
+    "basic",
+    "auth",
+    "middleware",
+    "merry",
+    "authentication",
+    "authorization"
+  ]
+}
